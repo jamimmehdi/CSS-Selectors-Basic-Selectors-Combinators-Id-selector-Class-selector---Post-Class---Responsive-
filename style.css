@@ -9,8 +9,8 @@ body {
 }
 
 .main-content {
-    min-height: 1000px;
     width: 90%;
+    min-height: 1000px;
     margin: 20px auto;
     display: grid;
     grid-template-columns: 300px 700px;
@@ -18,7 +18,7 @@ body {
 }
 
 .left-section {
-    grid-column: span 1;
+    grid-column: span 1 / span 2;
     background-color: #112B3C;
 }
 
@@ -103,7 +103,7 @@ body {
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 0.5rem;
-    padding-right: 00.5rem;
+    padding-right: 0.5rem;
 }
 
 .skill-name{
@@ -168,7 +168,7 @@ body {
 
 
 
-@media only screen and (max-width: 1070px) {
+/* @media only screen and (max-width: 1070px) {
     .main-content {
         grid-template-columns: 300px 600px;
     }
@@ -190,7 +190,7 @@ body {
     .main-content {
         grid-template-columns: 250px 380px;
     }
-}
+} */
 
 @media only screen and (max-width: 674px) {
     .main-content {
