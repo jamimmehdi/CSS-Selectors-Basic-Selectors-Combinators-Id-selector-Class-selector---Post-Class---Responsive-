@@ -89,21 +89,18 @@ body {
 }
 
 .skills {
-    /* font: 0.75rem;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 1rem 0.5rem; */
-    color: white;
-}
-
-.skills-title{
     font-size: 0.75rem;
     text-align: center;
     text-transform: uppercase;
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 0.5rem;
-    padding-right: 00.5rem;
+    padding-right: 0.5rem;
+    color: white;
+}
+
+.skills-title{
+    
 }
 
 .skill-name{
