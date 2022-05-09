@@ -89,18 +89,21 @@ body {
 }
 
 .skills {
-
+    font: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem;
     color: white;
 }
 
-.skills-title{
-    font-size: 0.75rem;
+.skills{
+    /* font-size: 0.75rem;
     text-align: center;
     text-transform: uppercase;
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-right: 0.5rem; */
     color: white;
 }
 
@@ -166,7 +169,7 @@ body {
 
 
 
-/* @media only screen and (max-width: 1070px) {
+@media only screen and (max-width: 1070px) {
     .main-content {
         grid-template-columns: 300px 600px;
     }
@@ -188,9 +191,9 @@ body {
     .main-content {
         grid-template-columns: 250px 380px;
     }
-} */
+}
 
-@media only screen and (max-width: 674px) {
+@media only screen and (max-width: 673px) {
     .main-content {
         grid-template-columns: repeat(1, 1fr);
     }
